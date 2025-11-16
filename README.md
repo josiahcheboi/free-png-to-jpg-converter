@@ -1,7 +1,7 @@
 # Josco PNG ↔ JPG Converter
 
 A lightweight, browser-based tool that allows users to instantly convert images between **PNG** and **JPG** formats.  
-No database is used — files are cleared after download, ensuring privacy and simplicity.
+No database is used files are cleared after download, ensuring privacy and simplicity.
 
 ---
 
