@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josco PNG ↔ JPG Converter</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#converter">Converter</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#profile">Profile</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <img src="assets/img/logo.png" alt="Josco Converter Logo" class="logo">
+    <h1>Josco PNG ↔ JPG Converter</h1>
+    <p>Upload an image and convert between PNG and JPG instantly.</p>
+  </header>
+
+  <main>
+    <!-- Upload & Conversion Section -->
+    <div id="converter" class="upload-section">
+      <input type="file" id="fileInput" accept=".png,.jpg,.jpeg">
+      <select id="conversionType">
+        <option value="png">Convert to PNG</option>
+        <option value="jpg">Convert to JPG</option>
+      </select>
+      <button id="convertBtn">Convert</button>
+    </div>
+
+    <div id="preview" class="preview"></div>
+
+    <div id="downloadSection" class="download-section" style="display:none;">
+      <button id="downloadBtn">Download Converted File</button>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About This Converter</h2>
+      <p>
+        The Josco PNG ↔ JPG Converter is a lightweight, browser-based tool that lets you
+        upload an image and instantly convert it between PNG and JPG formats. No database
+        is used — your file is cleared after download, ensuring privacy and simplicity.
+      </p>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile">
+      <h2>About Me</h2>
+      <p>Created by Josiah Cheboi, full-stack developer and founder of Tamasha Event Rentals.</p>
+
+      <!-- LinkedIn Badge Embed -->
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+      <div class="badge-base LI-profile-badge"
+           data-locale="en_US"
+           data-size="medium"
+           data-theme="dark"
+           data-type="VERTICAL"
+           data-vanity="josiah-cheboi"
+           data-version="v1">
+        <a class="badge-base__link LI-simple-link"
+           href="https://ke.linkedin.com/in/josiah-cheboi?trk=profile-badge">
+           Josiah Cheboi
+        </a>
+      </div>
+
+      <!-- Contact Me Button -->
+      <div class="contact-btn">
+        <a href="https://ke.linkedin.com/in/josiah-cheboi?trk=profile-badge" target="_blank">
+          <button>Connect with Me on LinkedIn</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <ul>
+    <li><a href="#converter" class="nav-link">Converter</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#profile" class="nav-link">Profile</a></li>
+  </ul>
+</nav>
+
+
+
+
+  <footer>
+    <p>© 2025 Josco Converter. No database, files cleared after download.</p>
+  </footer>
+
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/converter.js"></script>
+</body>
+</html>
